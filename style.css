@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(59, 59, 59);
+}
+.circle2 {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: rgb(0, 255, 170);
+    border: solid 20px red;
+}
+.sec {
+  height: 210px;
+  width: 10px;
+  background-color: rgb(212, 141, 34);
+  border-radius: 10px;
+  animation: second 60s infinite linear;
+  transform-origin: bottom left;
+  position: absolute;
+  top: 150px;
+  left: 750px;
+}
+@keyframes second {
+  /* from 
+            {
+                transform: rotate(0deg);
+            } */
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.min {
+  height: 150px;
+  width: 10px;
+  background-color: rgb(89, 13, 139);
+  border-radius: 10px;
+  animation: minute 3600s infinite linear;
+  transform-origin: bottom left;
+  position: absolute;
+  top: 210px;
+  left: 750px;
+  /* opacity: 20%; */
+}
+@keyframes minute {
+  /* from 
+              {
+                  transform: rotate(0deg);
+              } */
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hour {
+    height: 90px;
+    width: 10px;
+    background-color: rgb(19, 241, 30);
+    border-radius: 10px;
+    animation: hr 86,400s infinite linear;
+    transform-origin: bottom left;
+    position: absolute;
+    top: 270px;
+    left: 750px;
+    /* opacity: 40%; */
+  }
+  @keyframes hr {
+    /* from 
+                {
+                    transform: rotate(0deg);
+                } */
+    to {
+      transform: rotate(360deg);
+    }
+  }
