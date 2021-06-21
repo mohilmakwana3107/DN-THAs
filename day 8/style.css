@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+  }
+.main
+{
+    height: 460px;
+    width: 460px;
+    display: grid;
+    grid-template-rows: repeat(20,1fr);
+    grid-template-columns: repeat(20,1fr);
+    background-color: rgb(59, 59, 59);
+    
+}
+.clr
+{
+    border: solid 2px rgba(0, 0, 0, 0.753);
+    /* background-color: rgb(0, 200, 250); */
+    /* animation: lol 5s infinite; */
+}
+@keyframes lol
+{
+    0% 
+    {
+
+        background-color: rgb(253, 80, 0) ;
+    }
+    10% 
+    {
+        background-color: rgb(253, 215, 0) ;
+    }
+    20% 
+    {
+        background-color: rgb(143, 253, 0) ;
+    }
+    30% 
+    {
+        background-color: rgb(0, 253, 156) ;
+    }
+    40% 
+    {
+        background-color: rgb(0, 38, 253) ;
+    }
+    50% 
+    {
+        background-color: rgb(0, 17, 253) ;
+    }
+    60% 
+    {
+        background-color: rgb(141, 32, 184) ;
+    }
+    70% 
+    {
+        background-color: rgb(131, 26, 105) ;
+    }
+    80% 
+    {
+        background-color: rgb(173, 0, 253) ;
+    }
+    90% 
+    {
+        background-color: rgb(123, 202, 248) ;
+    }
+    100% 
+    {
+        background-color: rgb(59, 59, 59) ;   
+    }
+}
+.clr:hover
+{
+    background-color: rgba(255, 255, 255, 0.623);
+}
+.chgclr{
+    animation: lol 10s infinite;
+    /* background: rgb(253, 152, 0); */
+}
