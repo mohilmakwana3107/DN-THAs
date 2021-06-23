@@ -1,0 +1,146 @@
+body {
+    background: #d1fdff;
+    color: white;
+    font-family: arial;
+  }
+  body header {
+    height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  @media screen and (min-width: 37.4375em) {
+    body header {
+      width: 600px;
+    }
+  }
+  body header .timer {
+    position: absolute;
+    top: 14%;
+    left: 3%;
+    font-size: 23px;
+    background: #FFAD29;
+    width: 8vh;
+    height: 8vh;
+    line-height: 8vh;
+    border-radius: 4vh;
+    text-align: center;
+  }
+  
+  .game {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 37.4375em) {
+    .game {
+      width: 600px;
+    }
+  }
+  
+  .flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    perspective: 1000;
+    height: 22%;
+    margin: 1%;
+    cursor: pointer;
+  }
+  
+  .flip-container.flip .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  
+  .flip-container, .front, .back {
+    width: 23%;
+    float: left;
+    border-radius: 12px;
+  }
+  
+  .flipper {
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100%;
+    position: relative;
+  }
+  .flipper .front, .flipper .back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-backface-visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: #a0d4ff 0 8px 2px;
+  }
+  .flipper .front {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    /* background-image: linear-gradient(red, yellow); */
+    background-color: #0093E9;
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+
+  }
+  .flipper .back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    border: 1px solid #E8E8E8;
+  }
+
+  #cover {
+    background: white url("cover.svg") no-repeat center;
+    background-size: contain;
+  }
+  
+  #pokeball {
+    background: white url("pokeball.svg") no-repeat center;
+    background-size: contain;
+  }
+  
+  #person {
+    background: white url("perosn.svg") no-repeat center;
+    background-size: contain;
+  }
+  
+  #heart {
+    background: white url("heart.svg") no-repeat center;
+    background-size: contain;
+  }
+  
+  #charge {
+    background: white url("charge.svg") no-repeat center;
+    background-size: contain;
+  }
+  
+  #android {
+    background: white url("android.svg") no-repeat center;
+    background-size: contain;
+  }
+  
+  #gamepad {
+    background: white url("gamepad.svg") no-repeat center;
+    background-size: contain;
+  }
+  
+  #emoji {
+    background: white url("emoji.svg") no-repeat center;
+    background-size: contain;
+  }
