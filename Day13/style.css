@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Akaya+Kanadaka&family=Bree+Serif&family=DM+Mono:wght@300&family=Fira+Sans&family=Indie+Flower&family=Kanit:wght@200&family=Merriweather:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(170, 170, 170);
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* height: 500px;
+    width: 500px; */
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+}
+
+.quotecont {
+    display: flex;
+    background-color: #162B32;
+    min-height: 550px;
+    max-height: auto;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    background: rgba(223, 223, 223, 0.659);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.head {
+    font-size: 50px;
+    padding-bottom: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+.quote {
+    height: auto;
+    width: 550px;
+    background-color: transparent;
+    /* border: solid 1px black; */
+    font-size: 35px;
+    font-family: 'Akaya Kanadaka', cursive;
+    color: rgb(14, 14, 14);
+    text-align: justify;
+}
+
+.auth {
+    height: 100px;
+    width: 500px;
+    background-color: rgba(18, 102, 211, 0);
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Akaya Kanadaka', cursive;
+    padding-top: 10px;
+}
+
+.btn {
+    height: 60px;
+    width: 190px;
+    font-size: 25px;
+    background-color: rgb(163, 162, 162);
+    border: solid 3px rgb(255, 255, 255);
+    transition: 300ms;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+}
+.btn:hover
+{
+    width: 200px;
+    background-color: rgb(181, 181, 181);  
+}
