@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Events 1.1</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .clk {
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            cursor: pointer;
+        }
+        .video
+{
+    height: 300px;
+    width: 500px;
+}
+    </style>
+</head>
+
+<body ononline="online()" onkeypress="prss()" onoffline="offline()" onabort="onAbrt()" onafterprint="aftrLd()"
+    onbeforeprint="bfronprnt()" onresize="rsz()">
+
+    <h1>Just checking onafterprint method..... </h1>
+
+    <a href="https://www.google.com/">Check unload......</a>
+
+    <input type="text" onblur="blr()">
+
+    <video src="vd.mp4" controls  onseeking="seekit()" onvolumechange="vlmchg()" onemptied="emplty()" oncanplaythrough="plytrh()"
+        oncanplay="ply()" onplay="plyd()" class="video"></video>
+        <!-- ontimeupdate="tmupdt()" -->
+
+    <select id="gender" onchange="chg()">
+        <option value="male">male</option>
+        <option value="female">Female</option>
+    </select>
+    <label id="abcc">Null</label>
+
+    <button onclick="chgclr()">Change color</button>
+
+    <div style="border: 1px solid black;" oncopy="cpyy()" oncontextmenu="ctxtmnu()" ondblclick="dbclickk()">Right click
+        here or double click here....</div>
+
+
+
+    <div ondrag="drg()" ondrop="drop()" ondragover="drgovr()" ondragend="drgend()" ondragleave="drglv()"
+        ondragstart="drgstrt()" ondragenter="drgentr()">Drag events here</div>
+
+    <div onmousedown="msprs()" class="clk"> Click me</div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
