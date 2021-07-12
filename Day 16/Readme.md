@@ -1,1 +1,1 @@
-https://vercel.com/nightfury31/csb-wmbci/FZ4JzbBGgPRwKdTrLDQbHaZmfsvz 
+https://csb-wmbci-4cuqr8s9y-nightfury31.vercel.app
