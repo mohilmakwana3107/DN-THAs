@@ -1,0 +1,17 @@
+.black
+{
+  /* background-color: black; */
+  /* width : 40px;
+  height: 40px; */
+  border: 1px solid white;
+}
+.white
+{
+  /* background-color: rgb(211, 35, 35); */
+  /* width : 40px;
+  height: 40px; */
+  border: 1px solid black;
+}
+
+.black, .row:nth-child(2n) .squre:nth-child(2n), .row:nth-child(odd) .squre:nth-child(odd) {
+  background: #000;}
