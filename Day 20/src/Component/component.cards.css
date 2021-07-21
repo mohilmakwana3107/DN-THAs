@@ -1,0 +1,35 @@
+.Card
+{
+  /* background-color: rgb(187, 187, 187); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.action
+{
+background-color: white;
+height: auto;
+min-width: 500px;
+opacity: 0.5;
+border: 7px double rgba(28,110,164,0.25);
+border-radius: 20px;
+margin-top: 20px;
+transition: 0.3s;
+}
+.action:hover
+{
+  opacity: 1;
+ border: 7px double rgba(28,110,164,1);
+}
+button{
+height: 50px;
+width: 200px;
+border: none;
+background-color: rgb(164, 227, 248);
+margin-bottom: 30px;
+transition: 0.5s;
+}
+button:hover{
+  background-color: rgb(44, 198, 250);
+}
