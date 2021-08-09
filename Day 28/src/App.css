@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap");
+body {
+  background: #1257d1;
+  background: -webkit-linear-gradient(140deg, #1257d1 0%, #48dbff 100%);
+  background: linear-gradient(140deg, #1257d1 0%, #48dbff 100%);
+  height: 100%;
+  font-family: 'Fira Sans', sans-serif;
+}
+.wthr-cntnr {
+  background-color: rgb(136, 136, 136);
+  height: 90vh;
+}
+.container {
+  margin-top: 10px;
+  padding: 35px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form-container {
+  text-align: center;
+  background-color: rgb(255, 145, 0);
+}
+
+.weather-container {
+  text-align: center;
+}
+
+.title-container {
+  margin-top: 70px;
+  /* font-family: "Raleway", sans-serif; */
+  letter-spacing: 2px;
+  color: white;
+  /* font-weight: 500; */
+  font-size: 68px;
+  font-weight: 700;
+}
+
+input {
+  margin-top: 20px;
+}
+.city-container {
+  outline: none;
+  margin-top: 80px;
+}
+.country-container {
+  outline: none;
+}
+
+input[type="text"] {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 0;
+  height: 40px;
+  width: 90%;
+  border-bottom: solid 1px white;
+  padding-bottom: 2px;
+  color: black !important;
+  font-weight: 300;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 8px 20px;
+  border-radius: 16px;
+  letter-spacing: 1px;
+  /* font-family: "Raleway", sans-serif; */
+  cursor: pointer;
+  border: solid 2px black;
+  background-color: transparent;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: 20px;
+  transition: 0.4s;
+  font-weight: 600;
+  outline: none;
+}
+button:hover {
+  background-color: rgb(255, 90, 30);
+  color: black;
+}
+
+.weather_key {
+  text-transform: uppercase;
+  color:#003366;
+  
+  margin-bottom: 0px;
+  /* font-family: "Playfair Display", serif; */
+  font-weight: bolder;
+}
+.location {
+  font-size: 62px;
+  padding-top: 40px;
+}
+
+.temperature {
+  font-size: 48px;
+  text-decoration: underline;
+}
+.min_max_temperature {
+  font-size: 22px;
+}
+.humidity {
+  margin-top: 28px;
+  font-size: 18px;
+  font-family: serif;
+  letter-spacing: 2px;
+}
+.wind_speed {
+  font-size: 18px;
+  font-family: serif;
+}
+.conditions {
+  padding-top: 38px;
+  font-size: 22px;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  margin-top: 0px;
+  /* font-family: "Playfair Display", serif; */
+  font-size: 48px;
+  padding-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: rgb(145, 0, 0);
+}
